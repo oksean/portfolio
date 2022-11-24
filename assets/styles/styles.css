@@ -220,16 +220,6 @@ color: rgb(76, 62, 203);
 }
 
 
-@media screen and (max-width: 768px) {
-    .about{
-        width: fit-content;
-    }
-    . img{
-      margin-top: 200px;
-    }
-     
-    
-}
   
 
 
