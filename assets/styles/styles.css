@@ -8,21 +8,21 @@ a{
 .top{
     width: 100%;
     background: #0a192f;
-    
+    z-index: 99999999999;
     position: fixed;
     top: 0;
-  
 }
 .top-menu{
 background-color: #0a192f;
+
 }
 .menu ul{
     text-align: right;
+   
 }
 .menu ul li {
     display: inline;
     padding-right: 5px;
-    
 
 }
 .menu img{
@@ -36,6 +36,7 @@ background-color: #0a192f;
 }
 .menu ul li a:hover {
    background-color: #8892b0;
+   box-shadow: 5px 5px 5px #000;
 }
 .menu img{
 justify-content: flex-start !important;
@@ -55,6 +56,7 @@ justify-content: flex-start !important;
     justify-content: flex-end;
     position: fixed;
     padding-top: 100px;
+    z-index: 9999999999;
 }
 .social ul li{
     padding-top: 20px;
@@ -74,7 +76,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .about button{
-    color: #a7d6f6;
+    color: white;
     background-color: transparent;
     padding-left: 20px;
     padding-right: 20px;
@@ -82,17 +84,30 @@ font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: 5px 5px #000;
+    
     
 }
+
+.about button:hover{
+    transform: scale(1.09);
+
+}
+
 .about p{
     font-size: 15px;
     color: #48b8a5;
 }
 .photo img{
-  padding: 20px;
+  padding: 50px;
   width: 250px;
   border-style: double;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000;
 
+}
+.photo:hover{
+  transform: scale(1.05);
 }
 
 .photo{
@@ -127,6 +142,7 @@ color: rgb(76, 62, 203);
     grid-template-rows: minmax(auto, auto);
     padding-left: 30px;
     height: 300px;
+    transform: scale(1.09);
 }
 .mail{
     grid-row: 2/3;
@@ -172,12 +188,17 @@ color: rgb(76, 62, 203);
 .col1 h1{
     color: #48b8a5;
     text-align: center;
+ 
 }
 #col2 h1{
     color: #48b8a5;
 }
 .button{
     text-align: center;
+   
+}
+.button:hover{
+    transform: scale(1.09);
 }
 #what{
     background-color: #0a192f;
